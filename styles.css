@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+}
+
+body {
+  margin: 0 20%;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+::selection {
+  background: #00b39b;
+  color: #eef2f2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+header select {
+  border: none;
+}
+
+header img {
+  cursor: pointer;
+  margin-right: auto;
+  width: 268px;
+  height: 33px;
+}
+
+header select {
+  color: #747474;
+  font-weight: thin;
+}
+
+header select :hover {
+  border: none;
+}
+
+header nav {
+  margin-top: 20px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+#aboutUs {
+  color: #00b39b;
+}
+
+header nav ul li a {
+  color: #ababab;
+  text-decoration: none;
+}
+
+header nav ul li :hover {
+  color: #00b39b;
+  text-decoration: none;
+}
+
+#firstViewHeader {
+  margin: 1em 0;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  color: #00b39b;
+  font-size: 2.125rem;
+  display: block;
+}
+
+#paragraphs {
+  margin: 0.8em 0;
+  line-height: 1.75;
+}
+
+#paragraphs div {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  text-align: left;
+  color: #747474;
+  font-size: 16px;
+}
+
+#pdc div {
+  border-radius: 10px;
+  padding: 2em 2em;
+  overflow: hidden;
+  height: 345px;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  text-align: left;
+}
+
+#pdc div h1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  margin: 0.3em 0;
+}
+
+.drp select {
+  border: 0;
+  background: inherit;
+  color: white;
+  text-decoration: underline;
+}
+
+.drp {
+  align-items: left;
+}
+
+#patients {
+  background-color: #00ccb1;
+}
+
+#doctors {
+  background-color: #3d83df;
+}
+
+#clinics {
+  background-color: #1b2734;
+}
+
+.status {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: #e5faf8;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.status .right_container {
+  width: 30%;
+  display: flex;
+  gap: 1rem;
+}
+
+.right_container div div {
+  display: flex;
+  flex-direction: colomn;
+  align-items: center;
+  width: 250px;
+  height: 270px;
+  border-radius: 10px;
+  text-align: center;
+  color: #747474;
+}
+
+.right_container div div h4 {
+  color: #00ccb1;
+}
+
+.right_container div div img {
+  width: 35px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.status .left_container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  color: #747474;
+}
+
+.left_container h3 {
+  color: #00ccb1;
+}
+
+.right_container div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.right_right div {
+  background-color: white;
+}
+
+.right_left div {
+  background-color: white;
+  border-radius: 0.3rem;
+}
+
+.right_right {
+  position: relative;
+  bottom: 1rem;
+}
+
+.improve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50rem;
+  margin-bottom: 67px;
+}
+
+.improve div {
+  text-align: center;
+  padding: 0 23%;
+  color: #747474;
+}
+
+.improve .header1 {
+  font-size: 1.625em;
+  font-weight: 400;
+  margin: 0.3em 0;
+  color: #00ccb1;
+  padding: 0 15%;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.images div {
+  padding: 10px;
+  width: 331px;
+  height: 370px;
+  text-decoration: none;
+  color: #747474;
+}
+
+.office img {
+  width: 310px;
+  height: 278px;
+}
+
+.images div :hover {
+  text-decoration: none;
+}
+
+.namebtn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.namebtn button {
+  font-size: 0.625rem;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 105px;
+  height: 27px;
+}
+
+.joinUs {
+  margin: 10% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+footer {
+  border-top: 1px solid #eef2f2;
+  padding: 0 20px;
+  color: #ababab;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+footer div {
+  text-align: center;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
