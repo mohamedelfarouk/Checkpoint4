@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-* {
-}
-
 body {
   margin: 0 20%;
   font-family: "Roboto", Arial, sans-serif;
@@ -66,6 +63,20 @@ header nav ul li :hover {
   text-decoration: none;
 }
 
+.smallImg {
+  display: flex;
+  justify-content: center;
+}
+
+#firstView div {
+  text-align: center;
+}
+
+#firstView img {
+  width: 40px;
+  height: 39px;
+}
+
 #firstViewHeader {
   margin: 1em 0;
   font-family: "Work Sans", Arial, sans-serif;
@@ -74,6 +85,7 @@ header nav ul li :hover {
   color: #00b39b;
   font-size: 2.125rem;
   display: block;
+  text-align: center;
 }
 
 #paragraphs {
@@ -99,6 +111,11 @@ header nav ul li :hover {
   justify-content: space-between;
   color: #fff;
   text-align: left;
+}
+
+#pdc img {
+  width: 24;
+  height: 24;
 }
 
 #pdc div h1 {
